@@ -187,13 +187,13 @@ export default function Home() {
   ]
 
   return (
-    <main className="bg-[#0A0A0F] min-h-screen overflow-hidden">
+    <main className="bg-[#0A0A0F] min-h-svh overflow-hidden">
       <ScrollProgress />
       <StarField density={200} />
       <Navbar variant="dark" />
 
       {/* ── HERO ── */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 pt-20">
+      <section className="relative min-h-svh flex items-center justify-center px-6 pt-20">
         <div ref={blobsRef} className="absolute inset-0 pointer-events-none" style={{ willChange: 'transform' }}>
           <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-white/[0.04] rounded-full blur-[160px] animate-breathe" />
           <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-white/[0.04] rounded-full blur-[160px] animate-breathe delay-700" />

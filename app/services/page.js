@@ -98,7 +98,7 @@ function CodeRain() {
     <canvas
       ref={canvasRef}
       className="fixed top-0 left-0 pointer-events-none"
-      style={{ zIndex: 0, width: '100vw', height: '100vh' }}
+      style={{ zIndex: 0, width: '100vw', height: '100svh' }}
     />
   )
 }
@@ -184,13 +184,13 @@ export default function Services() {
   ]
 
   return (
-    <main className="bg-[#050508] min-h-screen overflow-hidden">
+    <main className="bg-[#050508] min-h-svh overflow-hidden">
       <CodeRain />
       <div className="relative z-[1]">
       <Navbar variant="dark" />
 
       {/* HERO */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 pt-20">
+      <section className="relative min-h-svh flex items-center justify-center px-6 pt-20">
         {/* Background blobs */}
         <div ref={blobRef} className="absolute inset-0 pointer-events-none" style={{ willChange: 'transform' }}>
           <div className="absolute top-1/4 left-1/3 w-[500px] h-[500px] bg-indigo-600/10 rounded-full blur-[180px] animate-breathe" />

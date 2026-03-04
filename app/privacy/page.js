@@ -566,7 +566,7 @@ export default function PrivacyPage() {
   const c = CONTENT[lang] || CONTENT.de
 
   return (
-    <div className="min-h-screen bg-[#050508] text-white">
+    <div className="min-h-svh bg-[#050508] text-white">
       <Navbar variant="dark" />
 
       <main className="max-w-3xl mx-auto px-6 lg:px-8 pt-40 pb-32">

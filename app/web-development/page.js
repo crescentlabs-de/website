@@ -65,7 +65,7 @@ export default function WebDevelopment() {
   }, [currentLine, currentChar])
 
   return (
-    <main className="bg-[#0A0A0F] min-h-screen overflow-hidden cursor-default">
+    <main className="bg-[#0A0A0F] min-h-svh overflow-hidden cursor-default">
       <Navbar variant="dark" />
 
       {/* Cursor Glow Effect */}
@@ -79,7 +79,7 @@ export default function WebDevelopment() {
       />
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 pt-20">
+      <section className="relative min-h-svh flex items-center justify-center px-6 pt-20">
         {/* Animated Grid Background */}
         <div className="absolute inset-0 opacity-20">
           <div 

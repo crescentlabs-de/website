@@ -59,11 +59,11 @@ export default function TwoDo() {
   ]
 
   return (
-    <main className="bg-[#0F0F1A] min-h-screen overflow-hidden">
+    <main className="bg-[#0F0F1A] min-h-svh overflow-hidden">
       <Navbar variant="dark" />
 
       {/* HERO */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 pt-20">
+      <section className="relative min-h-svh flex items-center justify-center px-6 pt-20">
         <div ref={blobRef} className="absolute inset-0 pointer-events-none" style={{ willChange: 'transform' }}>
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-indigo-500/15 rounded-full blur-[150px] animate-breathe" />
           <div className="absolute bottom-1/3 right-1/4 w-96 h-96 bg-purple-500/15 rounded-full blur-[150px] animate-breathe delay-500" />

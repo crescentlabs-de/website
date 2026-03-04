@@ -209,12 +209,12 @@ export default function FocusMission() {
   ]
 
   return (
-    <main className="bg-[#0A0A0F] min-h-screen overflow-hidden">
+    <main className="bg-[#0A0A0F] min-h-svh overflow-hidden">
       <StarField density={250} speed="slow" />
       <Navbar variant="dark" />
 
       {/* HERO */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 pt-20">
+      <section className="relative min-h-svh flex items-center justify-center px-6 pt-20">
         {/* Orbital rings with scroll-driven planets */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           {/* Outer ring */}

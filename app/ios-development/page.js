@@ -39,11 +39,11 @@ export default function iOSDevelopment() {
   }
 
   return (
-    <main className="bg-[#000000] min-h-screen overflow-hidden">
+    <main className="bg-[#000000] min-h-svh overflow-hidden">
       <Navbar variant="dark" />
 
       {/* Hero - Apple Style */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20">
+      <section className="relative min-h-svh flex flex-col items-center justify-center px-6 pt-20">
         {/* Subtle Gradient */}
         <div 
           className="absolute inset-0 opacity-40"
