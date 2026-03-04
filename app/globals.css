@@ -43,11 +43,13 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #050508;
 }
 
 body {
   font-family: 'Outfit', sans-serif;
   overflow-x: hidden;
+  background-color: #050508;
 }
 
 /* ============================================
