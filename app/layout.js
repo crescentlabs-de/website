@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="de">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="theme-color" content="#0A0A0F" />
       </head>
       <body className="antialiased">
