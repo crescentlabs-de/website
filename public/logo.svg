@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="420" height="100">
+  <defs>
+    <filter id="s" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="white" flood-opacity="0.2"/>
+    </filter>
+    <mask id="m">
+      <circle cx="50" cy="50" r="40" fill="white"/>
+      <circle cx="68" cy="32" r="32" fill="black"/>
+    </mask>
+  </defs>
+  <circle cx="50" cy="50" r="40" fill="white" mask="url(#m)" filter="url(#s)"/>
+  <text x="105" y="67"
+    font-family="Inter, 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif"
+    font-size="48"
+    fill="white"
+    filter="url(#s)"
+  ><tspan font-weight="500">Crescent</tspan><tspan font-weight="300">Labs</tspan></text>
+</svg>
